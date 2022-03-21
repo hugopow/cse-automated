@@ -135,7 +135,7 @@ emyPxgcYxn/eR44/KJ4EBs+lVDR3veyJm+kXQ99b21/+jh5Xos1AnX5iItreGCc=
 -----END CERTIFICATE-----
 EOF
 
-# Create service account, if already done previously then comment this section out.
+# Create service role, if already done previously then comment this section out.
 #vcd login vcd.vmwire.com system administrator -p Vmware1!
 #cse create-service-role vcd.vmwire.com
 # Enter system administrator username and password
