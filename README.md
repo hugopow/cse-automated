@@ -16,7 +16,7 @@ Get your Photon VM http://packages.vmware.com/photon/3.0/GA/ova/photon-hw13_uefi
 
 Get the script to the Photon VM by running the following command
 
-curl https://raw.githubusercontent.com/hugopow/cse/main/cse-install.sh --output cse-install.sh
+curl https://raw.githubusercontent.com/hugopow/cse-automated/main/cse-install.sh --output cse-install.sh
 
 # Make it executable
 chmod +x cse-install.sh
