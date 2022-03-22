@@ -218,7 +218,7 @@ cat > /opt/vmware/cse/cse.sh << EOF
 source /opt/vmware/cse/python/bin/activate
 export CSE_CONFIG=/opt/vmware/cse/config/config.yaml
 export CSE_CONFIG_PASSWORD=Vmware1!
-cse run
+cse run -c /opt/vmware/cse/config/config.yaml
 EOF
  
 # Make cse.sh executable
